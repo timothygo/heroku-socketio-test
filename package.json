@@ -5,7 +5,8 @@
   "main": "build/index.js",
   "scripts": {
     "build": "babel src/index.js --out-file build/index.js",
-    "start": "nodemon --exec babel-node src/index.js"
+    "dev": "nodemon --exec babel-node src/index.js",
+    "start": "node build/index.js"
   },
   "author": "Timothy",
   "license": "ISC",
