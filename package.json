@@ -2,7 +2,7 @@
   "name": "express-test",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "babel src/index.js --out-file build/index.js",
     "start": "nodemon --exec babel-node src/index.js"
